@@ -20,8 +20,14 @@ terms of performance and security.
 The code is very simple and the tutorial has a lot of messages that are
 very descriptive. You can run this script and see that for yourself.
 The algorithm followed is also very simple. It uses a property of XOR
-to be reversible yet need a key for this. Each time you run this, a random
-128-bit key is generated.
+which is a logical operation that runs very fast in every computer.
+This property says that given two blocks `A` and `B`, and the output block
+of the XOR operation `C`, you can go back to `A` by calculating the output
+of the XOR operation between `B` and `C`. Each time you run this script, 
+a random 128-bit key is generated. This is for your own good. If the
+same key was used, your solution could only work with this specific key,
+which makes the algorithm useless since everyone knows the only key that
+can be used.
 
 Now go and play with it! Here are a few questions for you to answer:
 
