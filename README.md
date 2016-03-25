@@ -34,3 +34,11 @@ Now go and play with it! Here are a few questions for you to answer:
 * What happens if you increase the rounds to 5? What about 6? 7? 8?
 * Do you see a problem with the second round of decryption?
 * How can you solve this problem? Change the algorithm and write the code!
+
+## Extra
+One of my favorite comics online is [A Stick Figure Guide to the Advanced Encryption Standard](http://www.moserware.com/2009/09/stick-figure-guide-to-advanced.html), which 
+is essentially a comic describing how AES works. It does this in a simple 
+and easily understandable way and it might give you some inspiration on 
+your quest to make a good symmetric key cryptographic algorithm! Some basic
+principles from this comic can be used to answer the questions above, but
+there are always more questions one can ask.. :-) 
